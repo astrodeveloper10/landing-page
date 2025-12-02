@@ -40,7 +40,6 @@ body {
 .hero__logo {
     font-size: 24px;
     color: #f9faf8;
-    cursor: pointer;
 }
 
 ul {
@@ -79,7 +78,7 @@ h1 {
     font: inherit;
     background-color: #3882f6;
     color: white;
-    padding: 8px 32px;
+    padding: 16px 32px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -119,7 +118,7 @@ figure {
 }
 
 figure img {
-    width: 200px;
+    width: 100%;
     height: auto;
     border-radius: 16px;
     margin-bottom: 16px;
@@ -150,6 +149,7 @@ figcaption a:hover {
 .blockquote__container {
     display: flex;
     flex-direction: column;
+    gap: 8px;
     width: 1400px;
 }
 
@@ -170,12 +170,12 @@ figcaption a:hover {
 .call__to_action_container {
     display: flex;
     justify-content: center;
-    padding: 84px;
+    padding: 96px;
 }
 
 .call__to_action_content_container {
     background-color: #3882f6;
-    width: 1000px;
+    width: 1200px;
     padding: 64px;
     color: #f9faf8;
     display: flex;
@@ -185,23 +185,24 @@ figcaption a:hover {
 }
 
 .big-text {
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 24px;
+    margin-bottom: 12px;
 }
 
-.small-text {
-    font-size: 16px;
+.call__to_action_content_container div {
+    max-width: 700px;
 }
 
 .call__to_action_content_container button {
     font: inherit;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 8px 32px;
+    padding: 16px 32px;
     border-radius: 8px;
     cursor: pointer;
     transition: transform ease-in-out 300ms;
     border: 2px solid white;
+    max-width: 300px;
 }
 
 .call__to_action_content_container button:hover {
