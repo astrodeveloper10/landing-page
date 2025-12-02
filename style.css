@@ -82,13 +82,12 @@ h1 {
     padding: 8px 32px;
     border: none;
     border-radius: 8px;
-    font-weight: bold;
     cursor: pointer;
     transition: transform ease-in-out 300ms;
 }
 
 .content button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 img {
